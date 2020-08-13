@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="4dp"
+    app:cardCornerRadius="12dp"
+    >
+
+
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/country_name_tv"
+        tools:text="Egypt"
+        android:textSize="21sp"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:background="@android:color/white"
+        android:fontFamily="@font/bukra"
+        android:padding="8dp"
+     />
+
+</androidx.cardview.widget.CardView>
+

@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:background="@drawable/covid19_activity_background">
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/text_views_background"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="match_parent"
+            android:text="@string/new_confirmed"
+            android:textSize="24sp"
+            android:gravity="center|start"
+            android:fontFamily="@font/bukra"
+            android:textColor="@android:color/black"
+            />
+
+        <TextView
+            android:id="@+id/new_confirmedTV"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="123"
+            android:textSize="21sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:fontFamily="@font/bukra"
+            android:textColor="@android:color/black"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/text_views_background"
+        >
+        <TextView
+
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="match_parent"
+            android:text="@string/total_confirmed"
+            android:textSize="24sp"
+            android:gravity="center|start"
+            android:fontFamily="@font/bukra"
+            android:textColor="@android:color/black"
+            />
+
+        <TextView
+            android:id="@+id/total_confirmedTV"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            tools:text="123"
+            android:textSize="21sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:fontFamily="@font/bukra"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/text_views_background"
+        >
+        <TextView
+
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="match_parent"
+            android:text="@string/new_deaths"
+            android:textSize="24sp"
+            android:gravity="center|start"
+            android:textColor="@android:color/black"
+            android:fontFamily="@font/bukra"
+            />
+
+        <TextView
+            android:id="@+id/new_deathsTV"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            tools:text="123"
+            android:textSize="21sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:fontFamily="@font/bukra"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/text_views_background"
+        >
+        <TextView
+
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="match_parent"
+            android:text="@string/total_deaths"
+            android:textSize="24sp"
+            android:gravity="center|start"
+            android:textColor="@android:color/black"
+            android:fontFamily="@font/bukra"
+            />
+
+        <TextView
+            android:id="@+id/total_deathsTV"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            tools:text="123"
+            android:textSize="21sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:fontFamily="@font/bukra"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/text_views_background"
+        >
+        <TextView
+
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="match_parent"
+            android:text="@string/new_recovered"
+            android:textSize="24sp"
+            android:gravity="center|start"
+            android:textColor="@android:color/black"
+            android:fontFamily="@font/bukra"
+            />
+
+        <TextView
+            android:id="@+id/new_recoveredTV"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            tools:text="123"
+            android:textSize="21sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:fontFamily="@font/bukra"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/text_views_background"
+        >
+        <TextView
+
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="match_parent"
+            android:text="@string/total_recovered"
+            android:textSize="24sp"
+            android:gravity="center|start"
+            android:textColor="@android:color/black"
+            android:fontFamily="@font/bukra"
+            />
+
+        <TextView
+            android:id="@+id/total_recoveredTV"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            tools:text="123"
+            android:textSize="21sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:fontFamily="@font/bukra"
+            />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
