@@ -1,4 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="app_name">متتبع كورونا</string>
+    <string name="new_confirmed">الحالات الجديدة</string>
+    <string name="total_confirmed">إجمالي الحالات</string>
+    <string name="new_deaths">الوفيات الجديدة</string>
+    <string name="total_deaths">إجمالي الوفيات</string>
+    <string name="new_recovered">المتعافون حديثا</string>
+    <string name="total_recovered">إجمالي المتعافين</string>
+    <string name="refresh">تحديث</string>
+    <string name="location_track">تتبع مكانك</string>
+    <string name="search">ابحث</string>
+    <string name="number">1</string>
 
 </resources>
